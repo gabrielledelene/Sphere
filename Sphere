@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <!-- css part  -->
+  <style>
+    /* styling .sphere class */
+    .sphere {
+      /* used to display sphere shape as block elements */
+      display: block;
+      /* setting border-radius to make it in shape of sphere */
+      border-radius: 50%;
+      /* setting height of shape */
+      height: 300px;
+      /* setting width of shape */
+      width: 300px;
+      /* setting margin equal to 0 */
+      margin: 0;
+      /* aligning shape in center */
+      top: 23%;
+      left: 40%;
+      /* setting background with radial-gradient for 3D shape */
+      background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+      /* setting position absolute */
+      position: absolute;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- figure tag with class name sphere -->
+  <figure class="sphere"></figure>
+</body>
+
+</html>
